@@ -5,7 +5,7 @@ This repository contains our custom deep learning framework for image classifica
 - Tensor + autograd-style parameter handling
 - Layers from scratch (`Conv2D`, `ReLU`, `MaxPool2D`, `Flatten`, `Linear`)
 - `CrossEntropyLoss` and SGD optimizer
-- CUDA backend (`ctypes` + `.cu` kernels) with Python fallback
+- CUDA backend (`ctypes` + `.cu` kernels)
 - Training, evaluation, serialization, and metrics logging
 
 The implementation is in `assignment1/`.
@@ -27,18 +27,7 @@ We use a deterministic split with:
 - `assignment1/config/` - config files for Dataset A/B
 - `assignment1/artifacts/` - saved weights and metrics
 
-## Dataset Preparation
-Place datasets inside `assignment1/datasets/` as:
-
-```text
-assignment1/datasets/
-  data_1/
-    <class_name>/*.png
-  data_2/
-    <class_name>/*.png
-```
-
-Notes:
+## Dataset
 - For `data_1`, class folders are typically `0..9`.
 - For `data_2`, class folders are CIFAR-100 class names.
 - PNG files are expected.
