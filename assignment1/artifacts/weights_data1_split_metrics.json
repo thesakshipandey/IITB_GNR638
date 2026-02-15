@@ -1,0 +1,73 @@
+{
+  "train_dir": "datasets/data_1",
+  "config": {
+    "seed": 42,
+    "epochs": 3,
+    "batch_size": 64,
+    "learning_rate": 0.01,
+    "momentum": 0.9,
+    "weight_decay": 0.0001,
+    "image_size": 32,
+    "input_channels": 3,
+    "conv_out_channels": 16,
+    "conv2_out_channels": 32,
+    "use_second_conv": true,
+    "fc_hidden_features": 128,
+    "model_arch": "data1",
+    "kernel_size": 3,
+    "conv_stride": 1,
+    "conv_padding": 1,
+    "pool_size": 2,
+    "pool_stride": 2,
+    "val_fraction": 0.1,
+    "test_fraction": 0.1,
+    "shuffle": true,
+    "print_every": 20
+  },
+  "split": {
+    "train_samples": 48000,
+    "val_samples": 6000,
+    "test_samples": 6000,
+    "seed": 42,
+    "val_fraction": 0.1,
+    "test_fraction": 0.1
+  },
+  "best_model": {
+    "epoch": 3,
+    "val_accuracy": 0.9601666666666666,
+    "weights_path": "artifacts/weights_data1_split_best.json",
+    "test_loss": 0.12124724767015592,
+    "test_accuracy": 0.9628333333333333
+  },
+  "final_model": {
+    "weights_path": "artifacts/weights_data1_split.json",
+    "test_loss": 0.12124724767015592,
+    "test_accuracy": 0.9628333333333333
+  },
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_loss": 0.7326566213764155,
+      "train_accuracy": 0.7547083333333333,
+      "val_loss": 0.20675274316534206,
+      "val_accuracy": 0.9361666666666667,
+      "epoch_time_seconds": 668.4884709669986
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.16093098425902858,
+      "train_accuracy": 0.9498541666666667,
+      "val_loss": 0.13445471126180236,
+      "val_accuracy": 0.9566666666666667,
+      "epoch_time_seconds": 669.8345372620006
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.1052399125814812,
+      "train_accuracy": 0.9664166666666667,
+      "val_loss": 0.1182420188674619,
+      "val_accuracy": 0.9601666666666666,
+      "epoch_time_seconds": 680.8821331079998
+    }
+  ]
+}
