@@ -1,0 +1,22 @@
+{
+  "candidate": "baseline",
+  "note": "Current stable baseline",
+  "results_dir": "/home/sakshi/Documents/GNR638/Assgn2/results/tuning_runs/baseline",
+  "LR_PROBE": 0.001,
+  "LABEL_SMOOTHING": 0.05,
+  "S43_STRONG_AUG": false,
+  "S43_WEIGHT_DECAY": 0.0001,
+  "S43_LOW_DATA_LR": 0.001,
+  "S43_EARLY_STOP_PATIENCE": 0,
+  "time_s41_sec": 977.2,
+  "time_s43_sec": 1251.5,
+  "time_s44_sec": 38.6,
+  "time_total_sec": 2267.2,
+  "time_total_hr": 0.63,
+  "s41_mean_best_val": 89.6567,
+  "s43_mean_best_val_20": 77.65,
+  "s43_mean_best_val_5": 56.66,
+  "s43_mean_gap_5": 26.3267,
+  "s44_mean_relative_robustness": 0.7457,
+  "objective_score": 71.8315
+}

@@ -1,0 +1,12 @@
+{
+  "model": "convnext_tiny",
+  "display_name": "ConvNeXt-Tiny",
+  "best_val_acc": 0.949964260185847,
+  "best_epoch": 28,
+  "final_val_acc": 0.9485346676197284,
+  "final_train_acc": 0.9969610296746514,
+  "params_total": 27843198,
+  "macs": 4479021342,
+  "flops": 8958042684,
+  "trainable_params": 24606
+}

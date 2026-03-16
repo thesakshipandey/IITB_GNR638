@@ -1,0 +1,22 @@
+{
+  "candidate": "mild_lowdata_reg",
+  "note": "Mild regularization for few-shot + slight probe LR increase",
+  "results_dir": "/home/sakshi/Documents/GNR638/Assgn2/results/tuning_runs/mild_lowdata_reg",
+  "LR_PROBE": 0.0011,
+  "LABEL_SMOOTHING": 0.08,
+  "S43_STRONG_AUG": true,
+  "S43_WEIGHT_DECAY": 0.0003,
+  "S43_LOW_DATA_LR": 0.0008,
+  "S43_EARLY_STOP_PATIENCE": 5,
+  "time_s41_sec": 886.3,
+  "time_s43_sec": 1292.7,
+  "time_s44_sec": 40.4,
+  "time_total_sec": 2219.5,
+  "time_total_hr": 0.617,
+  "s41_mean_best_val": 89.8467,
+  "s43_mean_best_val_20": 75.77,
+  "s43_mean_best_val_5": 53.5633,
+  "s43_mean_gap_5": 26.03,
+  "s44_mean_relative_robustness": 0.7425,
+  "objective_score": 70.3611
+}

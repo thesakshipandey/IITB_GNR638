@@ -1,0 +1,22 @@
+{
+  "candidate": "stronger_lowdata_reg",
+  "note": "Stronger regularization for low-data stability",
+  "results_dir": "/home/sakshi/Documents/GNR638/Assgn2/results/tuning_runs/stronger_lowdata_reg",
+  "LR_PROBE": 0.001,
+  "LABEL_SMOOTHING": 0.1,
+  "S43_STRONG_AUG": true,
+  "S43_WEIGHT_DECAY": 0.0005,
+  "S43_LOW_DATA_LR": 0.0007,
+  "S43_EARLY_STOP_PATIENCE": 5,
+  "time_s41_sec": 908.5,
+  "time_s43_sec": 1299.4,
+  "time_s44_sec": 41.0,
+  "time_total_sec": 2248.8,
+  "time_total_hr": 0.625,
+  "s41_mean_best_val": 89.6867,
+  "s43_mean_best_val_20": 74.6967,
+  "s43_mean_best_val_5": 51.4167,
+  "s43_mean_gap_5": 23.16,
+  "s44_mean_relative_robustness": 0.7415,
+  "objective_score": 69.4184
+}

@@ -1,0 +1,16 @@
+Model,Corruption,Clean Acc (%),Corrupted Acc (%),Corruption Error,Relative Robustness
+ResNet50,Gaussian σ=0.05,88.28,78.98,0.2102,0.8947
+ResNet50,Gaussian σ=0.1,88.28,72.34,0.2766,0.8194
+ResNet50,Gaussian σ=0.2,88.28,27.59,0.7241,0.3126
+ResNet50,MotionBlur k=15,88.28,35.88,0.6412,0.4065
+ResNet50,Brightness f=1.5,88.28,84.35,0.1565,0.9555
+EfficientNet-B0,Gaussian σ=0.05,85.78,84.56,0.1544,0.9858
+EfficientNet-B0,Gaussian σ=0.1,85.78,78.27,0.2173,0.9125
+EfficientNet-B0,Gaussian σ=0.2,85.78,26.88,0.7312,0.3133
+EfficientNet-B0,MotionBlur k=15,85.78,24.37,0.7563,0.2842
+EfficientNet-B0,Brightness f=1.5,85.78,80.56,0.1944,0.9392
+ConvNeXt-Tiny,Gaussian σ=0.05,95.0,93.57,0.0643,0.985
+ConvNeXt-Tiny,Gaussian σ=0.1,95.0,92.07,0.0793,0.9691
+ConvNeXt-Tiny,Gaussian σ=0.2,95.0,85.13,0.1487,0.8962
+ConvNeXt-Tiny,MotionBlur k=15,95.0,43.67,0.5633,0.4597
+ConvNeXt-Tiny,Brightness f=1.5,95.0,93.92,0.0608,0.9887

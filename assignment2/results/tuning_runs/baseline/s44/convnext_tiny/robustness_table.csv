@@ -1,0 +1,6 @@
+Model,Corruption,Clean Acc (%),Corrupted Acc (%),Corruption Error,Relative Robustness
+ConvNeXt-Tiny,Gaussian σ=0.05,94.85,93.42,0.0658,0.9849
+ConvNeXt-Tiny,Gaussian σ=0.1,94.85,91.92,0.0808,0.9691
+ConvNeXt-Tiny,Gaussian σ=0.2,94.85,84.92,0.1508,0.8953
+ConvNeXt-Tiny,MotionBlur k=15,94.85,45.75,0.5425,0.4823
+ConvNeXt-Tiny,Brightness f=1.5,94.85,93.71,0.0629,0.9879

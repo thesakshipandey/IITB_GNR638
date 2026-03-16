@@ -1,0 +1,7 @@
+Scenario,Models,Wall Time (s),Wall Time (h),Status
+4.1 Linear Probe Transfer,"resnet50, efficientnet_b0, convnext_tiny",908.3,0.252,OK
+4.2 Fine-Tuning Strategies,"resnet50, efficientnet_b0, convnext_tiny",5121.8,1.423,OK
+4.3 Few-Shot Learning,"resnet50, efficientnet_b0, convnext_tiny",1292.5,0.359,OK
+4.4 Corruption Robustness,"resnet50, efficientnet_b0, convnext_tiny",41.6,0.012,OK
+4.5 Layer-Wise Probing,"resnet50, efficientnet_b0, convnext_tiny",43.9,0.012,OK
+TOTAL,"resnet50, efficientnet_b0, convnext_tiny",7408.3,2.058,—

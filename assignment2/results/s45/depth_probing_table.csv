@@ -1,0 +1,10 @@
+Model,Layer,Layer Path,Probe Train Acc (%),Probe Test Acc (%),Mean Feature Norm,Feature Dim
+ResNet50,early,layer1,100.0,78.57,18.5651,256
+ResNet50,middle,layer2,100.0,86.79,49.269,512
+ResNet50,final,layer4,100.0,85.36,6.9583,2048
+EfficientNet-B0,early,blocks.0,46.38,37.5,3.9775,16
+EfficientNet-B0,middle,blocks.3,100.0,81.07,25.06,80
+EfficientNet-B0,final,blocks.6,100.0,87.14,29.0856,320
+ConvNeXt-Tiny,early,stages.0,99.11,72.86,11.2363,96
+ConvNeXt-Tiny,middle,stages.1,100.0,87.14,29.1458,192
+ConvNeXt-Tiny,final,stages.3,100.0,88.93,10.5396,768

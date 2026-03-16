@@ -1,0 +1,12 @@
+{
+  "selected_candidate": "baseline",
+  "objective_score": 71.8315,
+  "overrides": {
+    "LR_PROBE": 0.001,
+    "LABEL_SMOOTHING": 0.05,
+    "S43_STRONG_AUG": false,
+    "S43_WEIGHT_DECAY": 0.0001,
+    "S43_LOW_DATA_LR": 0.001,
+    "S43_EARLY_STOP_PATIENCE": 0
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "model_name": "efficientnet_b0",
+  "method": "gradient_budgeted",
+  "target_fraction": 0.2,
+  "actual_fraction": 0.19994320716807384,
+  "total_backbone_params": 4007548,
+  "budget_params": 801509,
+  "selected_params": 801282,
+  "selected_paths": [
+    "conv_head",
+    "conv_stem",
+    "bn1",
+    "blocks.5.0",
+    "bn2",
+    "blocks.3.2",
+    "blocks.2.0",
+    "blocks.0.0",
+    "blocks.1.0"
+  ],
+  "candidates": [
+    {
+      "path": "conv_head",
+      "n_params": 409600,
+      "depth_rank": 0,
+      "raw_grad_score": 3.2271185715993247,
+      "score_density": 7.878707450193663e-06,
+      "composite_score": 0.7514133848499334,
+      "selected": true
+    },
+    {
+      "path": "bn2",
+      "n_params": 2560,
+      "depth_rank": 1,
+      "raw_grad_score": 0.19803687433401743,
+      "score_density": 7.735815403672555e-05,
+      "composite_score": 0.14850255766030654,
+      "selected": true
+    },
+    {
+      "path": "blocks.6.0",
+      "n_params": 717232,
+      "depth_rank": 2,
+      "raw_grad_score": 0.678012800737855,
+      "score_density": 9.453186705805862e-07,
+      "composite_score": 0.22620729869532227,
+      "selected": false
+    },
+    {
+      "path": "blocks.5.3",
+      "n_params": 587952,
+      "depth_rank": 3,
+      "raw_grad_score": 0.45021919971083707,
+      "score_density": 7.657414205765727e-07,
+      "composite_score": 0.17503017802577192,
+      "selected": false
+    },
+    {
+      "path": "blocks.5.2",
+      "n_params": 587952,
+      "depth_rank": 4,
+      "raw_grad_score": 0.4370758233840089,
+      "score_density": 7.433869148910267e-07,
+      "composite_score": 0.16711569637349116,
+      "selected": false
+    },
+    {
+      "path": "blocks.5.1",
+      "n_params": 587952,
+      "depth_rank": 5,
+      "raw_grad_score": 0.456156762935979,
+      "score_density": 7.758401416033605e-07,
+      "composite_score": 0.16570160641171267,
+      "selected": false
+    },
+    {
+      "path": "blocks.5.0",
+      "n_params": 262492,
+      "depth_rank": 6,
+      "raw_grad_score": 0.46981347466718065,
+      "score_density": 1.7898201646799926e-06,
+      "composite_score": 0.16337105796371143,
+      "selected": true
+    },
+    {
+      "path": "blocks.4.2",
+      "n_params": 208572,
+      "depth_rank": 7,
+      "raw_grad_score": 0.3300020523348301,
+      "score_density": 1.5821972859963471e-06,
+      "composite_score": 0.1299101068861469,
+      "selected": false
+    },
+    {
+      "path": "blocks.4.1",
+      "n_params": 208572,
+      "depth_rank": 8,
+      "raw_grad_score": 0.35170011790924965,
+      "score_density": 1.6862288222256566e-06,
+      "composite_score": 0.12903599404796504,
+      "selected": false
+    },
+    {
+      "path": "blocks.4.0",
+      "n_params": 126004,
+      "depth_rank": 9,
+      "raw_grad_score": 0.4608204487873921,
+      "score_density": 3.6571890478666715e-06,
+      "composite_score": 0.1461052192262403,
+      "selected": false
+    },
+    {
+      "path": "blocks.3.2",
+      "n_params": 102900,
+      "depth_rank": 10,
+      "raw_grad_score": 0.3045125022003725,
+      "score_density": 2.959305172015282e-06,
+      "composite_score": 0.10923362065885736,
+      "selected": true
+    },
+    {
+      "path": "blocks.3.1",
+      "n_params": 102900,
+      "depth_rank": 11,
+      "raw_grad_score": 0.30195474338765615,
+      "score_density": 2.934448429423286e-06,
+      "composite_score": 0.10345082479080288,
+      "selected": false
+    },
+    {
+      "path": "blocks.3.0",
+      "n_params": 37130,
+      "depth_rank": 12,
+      "raw_grad_score": 0.3423004850384738,
+      "score_density": 9.218973472622511e-06,
+      "composite_score": 0.1074414280914975,
+      "selected": false
+    },
+    {
+      "path": "blocks.2.1",
+      "n_params": 31290,
+      "depth_rank": 13,
+      "raw_grad_score": 0.24288578932023253,
+      "score_density": 7.762409374248402e-06,
+      "composite_score": 0.08189305649967055,
+      "selected": false
+    },
+    {
+      "path": "blocks.2.0",
+      "n_params": 15350,
+      "depth_rank": 14,
+      "raw_grad_score": 0.3092765348499084,
+      "score_density": 2.0148308459277422e-05,
+      "composite_score": 0.09222413796426726,
+      "selected": true
+    },
+    {
+      "path": "blocks.1.1",
+      "n_params": 10710,
+      "depth_rank": 15,
+      "raw_grad_score": 0.25375788560212736,
+      "score_density": 2.3693546741561847e-05,
+      "composite_score": 0.07641451167100118,
+      "selected": false
+    },
+    {
+      "path": "blocks.1.0",
+      "n_params": 6004,
+      "depth_rank": 16,
+      "raw_grad_score": 0.24730186726411865,
+      "score_density": 4.1189518198554076e-05,
+      "composite_score": 0.07298964956213956,
+      "selected": true
+    },
+    {
+      "path": "blocks.0.0",
+      "n_params": 1448,
+      "depth_rank": 17,
+      "raw_grad_score": 0.20823457493890296,
+      "score_density": 0.00014380840810697718,
+      "composite_score": 0.07826674198940395,
+      "selected": true
+    },
+    {
+      "path": "bn1",
+      "n_params": 64,
+      "depth_rank": 18,
+      "raw_grad_score": 0.08918966352939606,
+      "score_density": 0.0013935884926468134,
+      "composite_score": 0.27322756794285497,
+      "selected": true
+    },
+    {
+      "path": "conv_stem",
+      "n_params": 864,
+      "depth_rank": 19,
+      "raw_grad_score": 0.9957440892855326,
+      "score_density": 0.0011524815848212183,
+      "composite_score": 0.40730796644480527,
+      "selected": true
+    }
+  ]
+}

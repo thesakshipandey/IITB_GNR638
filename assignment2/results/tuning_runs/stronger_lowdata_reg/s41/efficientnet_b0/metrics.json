@@ -1,0 +1,12 @@
+{
+  "model": "efficientnet_b0",
+  "display_name": "EfficientNet-B0",
+  "best_val_acc": 0.8577555396711937,
+  "best_epoch": 27,
+  "final_val_acc": 0.8498927805575411,
+  "final_train_acc": 0.9345727565248481,
+  "params_total": 4045978,
+  "macs": 390865878,
+  "flops": 781731756,
+  "trainable_params": 38430
+}

@@ -1,0 +1,6 @@
+Model,Corruption,Clean Acc (%),Corrupted Acc (%),Corruption Error,Relative Robustness
+EfficientNet-B0,Gaussian σ=0.05,86.13,84.7,0.153,0.9834
+EfficientNet-B0,Gaussian σ=0.1,86.13,79.13,0.2087,0.9187
+EfficientNet-B0,Gaussian σ=0.2,86.13,27.23,0.7277,0.3162
+EfficientNet-B0,MotionBlur k=15,86.13,24.8,0.752,0.288
+EfficientNet-B0,Brightness f=1.5,86.13,81.13,0.1887,0.9419

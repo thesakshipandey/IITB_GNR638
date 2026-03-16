@@ -1,0 +1,12 @@
+{
+  "model": "resnet50",
+  "display_name": "ResNet50",
+  "best_val_acc": 0.8791994281629736,
+  "best_epoch": 23,
+  "final_val_acc": 0.873481057898499,
+  "final_train_acc": 0.9156238827314981,
+  "params_total": 23569502,
+  "macs": 4130449438,
+  "flops": 8260898876,
+  "trainable_params": 61470
+}

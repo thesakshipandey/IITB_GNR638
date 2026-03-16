@@ -1,0 +1,10 @@
+Model,Data Fraction,N Train Samples,Epochs Trained,Best Val Acc (%),Final Train Acc (%),Train-Val Gap (%),Relative Drop Δ (%)
+ResNet50,100%,5594,30,88.28,91.96,3.96,
+ResNet50,20%,1118,19,74.98,83.63,9.65,
+ResNet50,5%,279,20,54.75,82.8,28.76,37.98
+EfficientNet-B0,100%,5594,30,85.78,93.46,8.47,
+EfficientNet-B0,20%,1118,20,61.69,77.64,16.52,
+EfficientNet-B0,5%,279,20,22.73,40.86,18.56,73.5
+ConvNeXt-Tiny,100%,5594,30,95.0,99.7,4.84,
+ConvNeXt-Tiny,20%,1118,20,87.42,99.82,12.54,
+ConvNeXt-Tiny,5%,279,20,76.77,98.92,22.16,19.19
